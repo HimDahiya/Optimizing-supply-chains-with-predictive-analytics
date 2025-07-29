@@ -1,8 +1,97 @@
-# Optimizing Global Supply Chains with Predictive Analytics 🌍
+# 📊 Simulation-Based Analytics Projects: Public Transit & Global Supply Chains
 
-This project explores how a global logistics company optimized its supply chain operations using **predictive analytics** and **generative AI**, including techniques like digital twin simulation, Monte Carlo methods, and reinforcement learning.
+This repository showcases two advanced projects built using **System Dynamics Modeling** and **Predictive Analytics with Generative AI**. Both projects focus on solving real-world challenges in transportation systems—one in the context of **urban public transit** and the other in **global logistics optimization**.
 
 ---
+
+## 🚇 Project 1: STM Montréal Public Transit – System Dynamics Simulation
+
+### 🎯 Introduction & Scope
+
+Public transportation is central to sustainable urban development. Montréal's **Société de transport de Montréal (STM)** aims to boost accessibility, quality, and efficiency in transit services. This project models the **interdependencies between ridership levels and service quality**, allowing STM to explore, simulate, and optimize social sustainability outcomes.
+
+We developed a **System Dynamics Model** in **AnyLogic** to simulate how ridership levels and service quality evolve over time based on various influencing factors.
+
+### 🧠 What is System Dynamics?
+
+System Dynamics is a modeling methodology for analyzing and simulating complex systems using:
+- **Stocks & Flows**: Accumulations and rates of change
+- **Feedback Loops**: Reinforcing and balancing behaviors
+- **Time Delays**: Lagged effects across system components
+
+In this model:
+- **Stocks**: Ridership Level, Service Quality Score
+- **Flows**: Inflows and outflows based on user behavior and operational changes
+
+### 📌 Project Objective
+
+- Understand interdependencies between **service quality** and **ridership**
+- Identify **critical variables** (e.g. satisfaction, security, infrastructure)
+- Simulate impacts of various policy scenarios
+- Provide actionable strategies for STM to increase ridership and optimize quality
+
+### 🔍 Key Parameters (2006–2014 STM Data)
+
+- Population growth rate  
+- Accessibility rate  
+- Fare incentives  
+- Security perception & officer training  
+- Paratransit availability  
+- Infrastructure improvement  
+- Network coverage  
+- Service interruptions  
+- Fleet aging
+
+### 🔄 Model Architecture
+
+#### 🟦 Ridership Subsystem
+- **Inflow Drivers**: Customer satisfaction, discounted fare incentives, accessibility rate, population growth, bus availability  
+- **Outflow Drivers**: Fare increases, dissatisfaction, service interruptions
+
+#### 🟨 Service Quality Subsystem
+- **Improvement Factors**: Total ridership feedback, security training, infrastructure upgrades, coverage expansion  
+- **Degradation Factors**: Old vehicle fleets, interruptions
+
+The two systems are interlinked via causal relationships to allow bidirectional influence.
+
+### 📈 Outcome
+
+- A flexible, scenario-driven simulation model
+- Insights into feedback structures driving transit behavior
+- Identification of bottlenecks and leverage points for STM policy makers
+- Visualization of long-term trade-offs between service investment and ridership growth
+
+### 📁 Key Files
+
+| File                               | Description                                      |
+|------------------------------------|--------------------------------------------------|
+| `/models/stm_anylogic_model.alp`   | Complete STM simulation in AnyLogic             |
+| `/data/stm_indicators_2006_2014.csv`| Historical transit performance indicators       |
+| `/docs/STM_Model_Report.pdf`       | Full project report and validation notes         |
+
+---
+
+## 🚚 Project 2: Optimizing Global Supply Chains with Predictive Analytics
+
+### 🧭 Background
+
+A multinational logistics company operating across continents faced compounding inefficiencies in managing its supply chain, impacted by:
+- Fluctuating demand
+- Weather disruptions
+- Inventory imbalances
+- Route planning failures
+- Cost overruns and delayed deliveries
+
+Traditional linear planning approaches were no longer sufficient.
+
+### 🚀 Predictive Analytics Solution
+
+A robust **AI-powered predictive analytics engine** was deployed using:
+- **Digital Twin Modeling** – mirroring the real supply chain in simulation  
+- **Monte Carlo Simulations** – scenario testing for uncertainty  
+- **Reinforcement Learning** – continuous feedback optimization  
+- **ERP, GPS & Weather API Feeds** – real-time input layers
+
 
 ## 🧩 Business Challenge
 
